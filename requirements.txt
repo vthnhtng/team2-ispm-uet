@@ -1,0 +1,33 @@
+# pip install -r requirements.txt
+
+# base torchreid ----------------------------------------
+numpy
+Cython
+h5py
+Pillow
+six
+scipy
+opencv-python
+matplotlib
+tb-nightly
+future
+yacs
+gdown
+flake8
+yapf
+isort
+
+# added for bpbreid
+albumentations
+pandas
+tabulate
+deepdiff
+wandb
+neptune-client
+clearml
+monai
+torchmetrics==0.10.3
+
+# added for get_labels
+openpifpaf
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git
